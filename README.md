@@ -42,9 +42,15 @@ EffectiveMobile/
 
 ## Запуск проекта:
 
-git clone <repository_url>
+```
+git clone https://github.com/GrigonPatron/EffectiveMobile.git
 cd EffectiveMobile
-docker-compose up
+docker-compose up --build
 curl http://localhost
-result: Hello from Effective Mobile!
+```
+
+Результат:
+
+**Hello from Effective Mobile!**
+
 by *@GrigonPatron*
